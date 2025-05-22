@@ -1,0 +1,446 @@
+body {
+	background-color: #000;
+	font: 15px 'Calibri';
+	color:#4a4a4a;
+	width: auto;
+	height: 94%;
+}
+h1 {
+	display:inline;
+	font-size:24px;
+	margin: 22;
+	}
+h3 {
+display:inline;
+}
+table {
+font: 13px 'Calibri';
+}
+
+.table2 {
+font: 13px 'Calibri';
+padding: 15px 25px;
+}
+
+.inp {	
+	FONT-SIZE: 8pt;
+	COLOR: #DFDDD3;
+	FONT-FAMILY: Courier New;
+	BACKGROUND-COLOR: #151616;
+	border: 1px double #D6D3CE;
+}
+
+.submit {	
+font-family: Ubuntu-Light;
+color: #6b6b6b;
+font-size: 11px;
+background: #303030;
+border: 1px solid #000000;
+text-align: center;
+width: auto;
+padding: 5px 5px;
+border-radius: 0px;
+text-decoration: none;
+margin-top: 10px;
+cursor:pointer;
+box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.submit:hover {
+border-color: #000000;
+color: #000000;
+cursor: pointer;
+box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+.headerMenu {
+font-family: Ubuntu-Light;
+overflow:auto;
+margin: 0 auto;
+width: 560px;
+text-align: right;
+padding-top: 5px;
+padding-right:10px;
+box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.headerMenu a{
+color: #6b6b6b;
+float: left;
+font-size: 11px;
+background: #303030;
+border: 1px solid #000000;
+text-align: center;
+width: auto;
+padding: 5px 4px;
+margin: -5px 5px 0 0;
+border-radius: 2px;
+text-decoration: none;
+}
+.headerMenu a:hover{
+border-color: #000000;
+color: #000000;
+box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+.headerMenu a:active {
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EEE), to(#E0E0E0));
+border-color: #BBB;
+box-shadow: rgb(204, 204, 204) 0px 1px 5px inset;
+-webkit-box-shadow: rgb(204, 204, 204) 0px 1px 5px inset;
+z-index: 2;
+color: #000;
+}
+
+#fixed
+	{
+		width:200px;
+		position:absolute;
+		margin: -20 50;
+		padding:10px 10;
+		text-align:center;
+		border:1px solid #4a4a4a;
+		background:#0d0d0d;
+		float: left;
+	}
+#fixed1
+	{
+		width:200px;
+		margin: -20 50;
+		padding:10px 10;
+		text-align:center;
+		border:1px solid #4a4a4a;
+		background:#0d0d0d;
+		float:right;
+	}
+
+.change {
+	display:none;
+}
+	
+.div12 {
+	position: fixed; /* Фиксированное положение */
+    left: 0; top: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #0d0d0d; /* Цвет фона */
+    color: #4a4a4a; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+	text-align:center;
+	margin: auto;
+	border-bottom:1px solid #4a4a4a;
+	box-shadow: 0 0 25px rgba(0,0,0,5);
+	}
+@font-face{
+font-family: "Ubuntu-Light";
+src: url("Ubuntu-Light.ttf") format("truetype");
+font-style: normal; 
+font-weight: normal; 
+}
+.divtoptank {
+	margin: 20 auto;
+	padding:10px 10;
+	width:400px;
+	text-align:left;
+	border:1px solid #4a4a4a;
+	background:#0d0d0d;
+	}
+
+	
+.div121 {
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%); 
+}
+
+tr.border_bottom td {
+  border-bottom: 1px solid #4a4a4a;
+}
+
+tr.border_top td {
+  border-top: 1px solid #4a4a4a;
+}
+.div161 {
+display: inline-block;
+margin: 0;
+width: 300px;
+height:450px;
+position: absolute;
+top: 50%;
+left: 40%;
+margin-right: -25%;
+transform: translate(-50%, -50%); 
+border:1px solid #4a4a4a;
+	background:#0d0d0d;
+}
+.div151 {
+display: inline-block;
+margin: 0;
+width: 550px;
+height:450px;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%); 
+border:1px solid #4a4a4a;
+	background:#0d0d0d;
+}
+
+.imgb {
+	opacity: 0.2;
+}
+.imgb:hover { opacity: 1; }	
+	
+.align_center
+{
+position: relative;
+width: 100%;
+background: #191919;
+margin: auto;
+text-align:center;
+}
+
+.align_left
+{
+	text-align:left;
+	padding:0px 30;
+}
+
+.main { /* основной блок, который должен растянуться до подвала */
+	background: #000000; /* цвет фона основного блока (для наглядности) */
+	min-height: 100%; /* задаем минимальную высоту основного блока */
+	border:1px solid #4a4a4a;
+	width:400px;
+}
+
+.fig {
+    padding:100px 100;
+    text-align: center; /* Выравнивание по центру */ 
+   }
+
+.logo:hover { opacity: 0.5; }
+ 
+a:link, a:active {
+color:#4a4a4a;
+text-decoration: none;
+}
+a:visited {
+	color:#4a4a4a;
+	text-decoration: none;
+	
+}
+
+span:hover {
+color:#fff;
+text-shadow: 1px 1px 10px #fff;
+}
+
+a:hover {
+color:#fff;
+text-shadow: 1px 1px 10px #fff;
+}
+
+a.epack:hover {
+color:#ce2fd8;
+text-decoration:none;
+}
+
+a.estat:hover {
+color:#00ffff;
+text-decoration:none;
+}
+
+a.sepack:hover {
+color:#F778A1;
+text-decoration:none;
+}
+
+a.eambush:hover {
+color:#ffd700;
+text-decoration:none;
+
+}
+
+a.od:hover {
+color:#00FFFF;
+text-decoration:none;
+
+}
+
+a.lp:hover {
+color:#00a8ff;
+text-decoration:none;
+
+}
+a.lpp6:hover {
+color:#ffffff;
+text-decoration:none;
+
+}
+
+a.lpp:hover {
+text-decoration:none;
+text-shadow: 2px 2px 15px #d82e55;
+background: url(../inc/chat/gwiazdki/gwiazdkired_158.gif);
+color: #ff0000;
+}
+
+a.lpp1:hover {
+text-decoration:none;
+text-shadow: 2px 2px 15px #00ff00;
+background: url(../inc/chat/gwiazdki/gwiazdkidarkgreen_134.gif);
+color: #00ff00;
+}
+
+a.lpp2:hover {
+text-decoration:none;
+text-shadow: 2px 2px 15px #fff;
+background: url(../inc/chat/gwiazdki/gwiazdki_biale_906.gif);
+color: #ffffff;
+}
+
+a.lpp3:hover {
+text-decoration:none;
+text-shadow: 2px 2px 15px #25c5c8;
+background: url(../inc/chat/gwiazdki/gwiazdkiblue_505.gif);
+color: #25c5c8;
+}
+
+a.lpp4:hover {
+text-decoration:none;
+text-shadow: 2px 2px 15px #c825c5;
+background: url(../inc/chat/gwiazdki/gwiazdkiviolet_103.gif);
+color: #c825c5;
+}
+
+a.lpp5:hover {
+text-decoration:none;
+text-shadow: 2px 2px 15px #2986cc;
+background: url(../inc/chat/gwiazdki/gwiazdkiblue_505.gif);
+color: #2986cc;
+}
+
+a.testtt
+{
+text-decoration: none;
+border-bottom: 1px dashed #f00000;
+}
+
+
+
+a.testtt:hover {
+    color: #f00000; /* Цвет ссылки при наведении на нее курсора */
+   }
+
+.loginForm .plinks1 a {
+	display: block;
+	color: #fff;
+	transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	margin: 1px 0;
+	border-left: 4px solid #434343;
+	text-indent: 5px;
+	text-transform: uppercase;
+}
+
+
+#null {
+    padding: 10px;
+   }
+#footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #0d0d0d; /* Цвет фона */
+    color: #4a4a4a; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+	text-align:center;
+	margin: auto;
+	border-top:1px solid #4a4a4a;
+	box-shadow: 0 0 25px rgba(0,0,0,5);
+   }
+#navlist li
+	{
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+.software-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.software-card {
+  background: #111;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.software-card:hover {
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.2);
+  transform: translateY(-5px);
+}
+
+.software-card h2 {
+  color: #00ffff;
+  font-size: 16px;
+  border-bottom: 1px solid #333;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  text-shadow: 0 0 5px #00ffff;
+}
+
+.software-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.software-card li {
+  color: #aaa;
+  font-size: 14px;
+  padding: 4px 0;
+  transition: 0.3s;
+}
+
+.software-card li:hover {
+  color: #fff;
+  text-shadow: 0 0 8px #fff;
+  cursor: default;
+}
+
+.download-btn {
+  float: right;
+  background: #00ffff10;
+  border: 1px solid #00ffff33;
+  border-radius: 5px;
+  padding: 3px 8px;
+  font-size: 12px;
+  color: #00ffff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  background: #00ffff33;
+  border-color: #00ffff99;
+  box-shadow: 0 0 10px #00ffff;
+  color: #000;
+}
+
+
+
+@font-face{
+font-family: "Ubuntu-Light";
+src: url("Ubuntu-Light.ttf") format("truetype");
+font-style: normal; 
+font-weight: normal; 
+}

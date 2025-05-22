@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: 
+Disallow: /for_pro
+Disallow: /log
+Disallow: /matrix
+Disallow: /downloads
+Disallow: /counter
